@@ -1,3 +1,5 @@
+<h1 style="color:red">🔥 새 App.vue 불러짐!</h1>
+
 <script setup lang="ts">
 import { ref } from 'vue'
 import Builder from './patterns/Builder/Builder.vue'
