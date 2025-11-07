@@ -1,4 +1,5 @@
 // src/patterns/CToCppBuilder.ts
+//c->cpp 변환 코드 ts 파일
 
 // Builder 인터페이스 정의
 interface CodeBuilder {
