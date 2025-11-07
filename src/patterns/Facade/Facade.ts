@@ -1,4 +1,5 @@
 // src/patterns/BibleVerseFacade.ts
+//랜덤 성경 말씀 뽑기
 
 /**
  * 개별 기능 클래스들
