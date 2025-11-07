@@ -1,3 +1,4 @@
+//c->c++변환 코드 vue 파일
 <template>
   <div class="container">
     <h2>Builder Pattern: C → C++ Converter</h2>
