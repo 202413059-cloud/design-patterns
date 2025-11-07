@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-
-// 각 패턴 컴포넌트 import
 import Builder from './patterns/Builder/Builder.vue'
 import Facade from './patterns/Facade/Facade.vue'
 import CoR from './patterns/Chain_of_Responsibility/CoR.vue'
