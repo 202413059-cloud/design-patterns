@@ -1,3 +1,4 @@
+//랜덤 성경 말씀 뽑기
 <template>
   <div class="container">
     <h2>Facade Pattern: 랜덤 성경 말씀 뽑기 ✨</h2>
