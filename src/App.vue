@@ -1,32 +1,20 @@
-<h1 style="color:red">🔥 새 App.vue 불러짐!</h1>
-
-<script setup lang="ts">
-import { ref } from 'vue'
-import Builder from './patterns/Builder/Builder.vue'
-import Facade from './patterns/Facade/Facade.vue'
-import CoR from './patterns/Chain_of_Responsibility/CoR.vue'
-
-const current = ref('')
-</script>
-
 <template>
   <div class="app-container">
-    <h1>디자인 패턴 실습 🎨</h1>
+    <h1 style="color:red">🔥 DESIGN-PATTERNS 테스트 화면</h1>
 
     <div class="button-group">
-      <button @click="current = 'builder'">Builder (생성패턴)</button>
-      <button @click="current = 'facade'">Facade (구조패턴)</button>
-      <button @click="current = 'chain'">Chain of Responsibility (행위패턴)</button>
+      <button>Builder (생성패턴)</button>
+      <button>Facade (구조패턴)</button>
+      <button>Chain of Responsibility (행위패턴)</button>
     </div>
 
-    <div class="content-area">
-      <Builder v-if="current === 'builder'" />
-      <Facade v-if="current === 'facade'" />
-      <CoR v-if="current === 'chain'" />
-      <p v-if="!current">👆 위의 버튼 중 하나를 선택하세요!</p>
-    </div>
+    <p>👆 버튼만 보이면 연결은 나중에 추가해도 완벽합니다!</p>
   </div>
 </template>
+
+<script setup lang="ts">
+// 지금은 아무 import도 안 함 — 버튼만 테스트
+</script>
 
 <style scoped>
 .app-container {
@@ -52,9 +40,5 @@ button {
 
 button:hover {
   background-color: #357ab8;
-}
-
-.content-area {
-  margin-top: 30px;
 }
 </style>
